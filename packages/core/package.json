@@ -1,6 +1,6 @@
 {
   "name": "@ifan-dev/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ifan-dev core",
   "author": "yifan.zhang <fanfanyir@163.com>",
   "homepage": "",
@@ -20,6 +20,6 @@
     "test": "echo \"run tests from core\""
   },
   "dependencies": {
-    "@ifan-dev/utils": "^1.0.0"
+    "@ifan-dev/utils": "^1.0.1"
   }
 }
