@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "ifan-dev": "bin/index.js"
+  },
   "files": [
     "lib"
   ],
@@ -22,5 +25,5 @@
   "dependencies": {
     "@ifan-dev/utils": "^1.0.2"
   },
-  "gitHead": "229cffcaf8af1f922b9c8717a45540be3bb92646"
+  "gitHead": "60d9b8e5d9dbe5aa163e665ccd188048f030ba6a"
 }
