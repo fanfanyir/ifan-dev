@@ -1,0 +1,37 @@
+{
+  "name": "@ifan-dev/core",
+  "version": "1.0.3",
+  "description": "ifan-dev core",
+  "author": "yifan.zhang <fanfanyir@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "ifan-dev": "bin/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"run tests from core\""
+  },
+  "dependencies": {
+    "@ifan-dev/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^5.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^2.0.0"
+  },
+  "gitHead": "60d9b8e5d9dbe5aa163e665ccd188048f030ba6a"
+}
